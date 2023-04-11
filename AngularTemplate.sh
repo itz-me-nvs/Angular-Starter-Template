@@ -5,7 +5,7 @@ project_name="$1"
 
 # Clone project files from GitHub
 echo "Cloning project files from GitHub..."
-git clone https://github.com/USERNAME/REPO_NAME.git "$project_name"
+git clone https://github.com/itz-me-nvs/Angular-Starter-Template "$project_name"
 
 # Move into project directory
 cd "$project_name"
