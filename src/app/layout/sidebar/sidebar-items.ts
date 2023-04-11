@@ -1,0 +1,53 @@
+import { RouteInfo } from 'src/app/shared/interfaces/menu.interface';
+
+export const StudentRoute: RouteInfo[] = [
+  {
+    path: '',
+    title: 'Online Application',
+    iconType: 'material-icons-two-tone',
+    icon: 'application',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    taget: true,
+    badgeClass: '',
+    SubMenus: [
+      {
+        path: 'https://ariu.edu.qa/about-ariu/admission-requirements/',
+        title: 'Admission Requirements',
+        iconType: 'material-icons-two-tone',
+        icon: 'admission',
+        class: '',
+        groupTitle: false,
+        badge: '',
+        taget: true,
+        badgeClass: '',
+        SubMenus: [],
+      },
+      {
+        path: 'https://ariu.edu.qa/',
+        title: 'Our Programmes',
+        iconType: 'material-icons-two-tone',
+        icon: 'application',
+        class: '',
+        groupTitle: false,
+        badge: '',
+        taget: true,
+        badgeClass: '',
+        SubMenus: [],
+      },
+      {
+        path: 'https://ariu.edu.qa/',
+        title: 'About Us',
+        iconType: 'material-icons-two-tone',
+        icon: 'about',
+        class: '',
+        groupTitle: false,
+        badge: '',
+        taget: true,
+        badgeClass: '',
+        SubMenus: [],
+      },
+    ],
+  },
+];
